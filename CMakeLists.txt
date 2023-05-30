@@ -32,6 +32,7 @@ option(WITH_VAES            "Enable VAES instructions for Cryptonight" ON)
 option(WITH_BENCHMARK       "Enable builtin RandomX benchmark and stress test" ON)
 option(WITH_SECURE_JIT      "Enable secure access to JIT memory" OFF)
 option(WITH_DMI             "Enable DMI/SMBIOS reader" ON)
+option(WITH_BUNDLED_OPENCL_HEADERS "Force use of bundled OpenCL headers library" ON)
 option(WITH_BUNDLED_FMT     "Force use of bundled fmt library" ON)
 
 option(BUILD_STATIC         "Build static binary" OFF)
@@ -231,7 +232,6 @@ include(src/hw/api/api.cmake)
 include(src/hw/dmi/dmi.cmake)
 
 include_directories(src)
-include_directories(src/3rdparty/CL)
 include_directories(${UV_INCLUDE_DIR})
 
 if (WITH_DEBUG_LOG)
