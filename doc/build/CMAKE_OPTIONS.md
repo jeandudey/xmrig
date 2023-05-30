@@ -39,3 +39,4 @@ This feature add external dependency to libhwloc (1.10.0+) (except MSVC builds).
 * **`-DHWLOC_INCLUDE_DIR=<path>`** custom path to hwloc headers.
 * **`-DHWLOC_LIBRARY=<path>`** custom path to hwloc library.
 * **`-DOPENSSL_ROOT_DIR=<path>`** custom path to OpenSSL.
+* **`-DWITH_BUNDLED_FMT=OFF`**  do not build using bundled fmt library.
