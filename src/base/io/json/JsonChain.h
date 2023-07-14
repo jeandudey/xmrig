@@ -20,10 +20,10 @@
 #define XMRIG_JSONCHAIN_H
 
 
+#include <rapidjson/document.h>
 #include <vector>
 
 
-#include "3rdparty/rapidjson/document.h"
 #include "base/kernel/interfaces/IJsonReader.h"
 #include "base/tools/String.h"
 

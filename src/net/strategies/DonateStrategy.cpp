@@ -19,10 +19,10 @@
 #include <algorithm>
 #include <cassert>
 #include <iterator>
+#include <rapidjson/document.h>
 
 
 #include "net/strategies/DonateStrategy.h"
-#include "3rdparty/rapidjson/document.h"
 #include "base/crypto/keccak.h"
 #include "base/kernel/Platform.h"
 #include "base/net/stratum/Client.h"

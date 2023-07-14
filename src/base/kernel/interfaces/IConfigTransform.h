@@ -26,7 +26,7 @@
 #define XMRIG_ICONFIGTRANSFORM_H
 
 
-#include "3rdparty/rapidjson/fwd.h"
+#include <rapidjson/fwd.h>
 
 
 namespace xmrig {

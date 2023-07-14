@@ -22,10 +22,8 @@
 
 
 #include <functional>
+#include <rapidjson/fwd.h>
 #include <vector>
-
-
-#include "3rdparty/rapidjson/fwd.h"
 
 
 namespace xmrig {

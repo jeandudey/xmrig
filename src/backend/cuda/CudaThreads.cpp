@@ -17,11 +17,11 @@
  */
 
 #include "backend/cuda/CudaThreads.h"
-#include "3rdparty/rapidjson/document.h"
 #include "base/io/json/Json.h"
 
 
 #include <algorithm>
+#include <rapidjson/document.h>
 
 
 xmrig::CudaThreads::CudaThreads(const rapidjson::Value &value)

@@ -16,8 +16,9 @@
  *   along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include <rapidjson/document.h>
+
 #include "backend/common/Threads.h"
-#include "3rdparty/rapidjson/document.h"
 #include "backend/cpu/CpuThreads.h"
 #include "crypto/cn/CnAlgo.h"
 

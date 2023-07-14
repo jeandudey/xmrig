@@ -17,10 +17,10 @@
  *   along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include <rapidjson/prettywriter.h>
+#include <rapidjson/stringbuffer.h>
 
 #include "base/net/http/HttpApiResponse.h"
-#include "3rdparty/rapidjson/prettywriter.h"
-#include "3rdparty/rapidjson/stringbuffer.h"
 #include "base/net/http/HttpData.h"
 
 

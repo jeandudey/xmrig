@@ -18,7 +18,6 @@
  */
 
 #include "base/crypto/Algorithm.h"
-#include "3rdparty/rapidjson/document.h"
 #include "base/tools/String.h"
 
 
@@ -26,6 +25,7 @@
 #include <cstdio>
 #include <cstdlib>
 #include <map>
+#include <rapidjson/document.h>
 
 
 #ifdef _MSC_VER

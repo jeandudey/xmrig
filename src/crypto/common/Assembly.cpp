@@ -19,6 +19,7 @@
 
 #include <cassert>
 #include <cstring>
+#include <rapidjson/document.h>
 
 
 #ifdef _MSC_VER
@@ -27,7 +28,6 @@
 
 
 #include "crypto/common/Assembly.h"
-#include "3rdparty/rapidjson/document.h"
 
 
 namespace xmrig {

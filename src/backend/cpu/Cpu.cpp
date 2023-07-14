@@ -18,10 +18,10 @@
 
 
 #include <cassert>
+#include <rapidjson/document.h>
 
 
 #include "backend/cpu/Cpu.h"
-#include "3rdparty/rapidjson/document.h"
 
 
 #if defined(XMRIG_FEATURE_HWLOC)

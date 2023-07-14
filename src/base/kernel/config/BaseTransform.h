@@ -20,7 +20,7 @@
 #define XMRIG_BASETRANSFORM_H
 
 
-#include "3rdparty/rapidjson/document.h"
+#include <rapidjson/document.h>
 #include "base/crypto/Coin.h"
 #include "base/kernel/interfaces/IConfigTransform.h"
 

@@ -17,13 +17,13 @@
  */
 
 #include <fstream>
+#include <rapidjson/document.h>
+#include <rapidjson/istreamwrapper.h>
+#include <rapidjson/ostreamwrapper.h>
+#include <rapidjson/prettywriter.h>
 
 
 #include "base/io/json/Json.h"
-#include "3rdparty/rapidjson/document.h"
-#include "3rdparty/rapidjson/istreamwrapper.h"
-#include "3rdparty/rapidjson/ostreamwrapper.h"
-#include "3rdparty/rapidjson/prettywriter.h"
 
 
 bool xmrig::Json::get(const char *fileName, rapidjson::Document &doc)

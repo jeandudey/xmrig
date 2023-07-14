@@ -22,7 +22,7 @@
 #define XMRIG_HTTPDATA_H
 
 
-#include "3rdparty/rapidjson/document.h"
+#include <rapidjson/document.h>
 #include "base/tools/Object.h"
 
 

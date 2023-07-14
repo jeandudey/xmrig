@@ -20,7 +20,8 @@
 #define XMRIG_BASE_H
 
 
-#include "3rdparty/rapidjson/fwd.h"
+#include <rapidjson/fwd.h>
+
 #include "base/api/interfaces/IApiListener.h"
 #include "base/kernel/interfaces/IConfigListener.h"
 #include "base/kernel/interfaces/IWatcherListener.h"

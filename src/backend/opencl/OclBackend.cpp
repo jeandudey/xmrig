@@ -18,10 +18,10 @@
 
 #include <mutex>
 #include <string>
+#include <rapidjson/document.h>
 
 
 #include "backend/opencl/OclBackend.h"
-#include "3rdparty/rapidjson/document.h"
 #include "backend/common/Hashrate.h"
 #include "backend/common/interfaces/IWorker.h"
 #include "backend/common/Tags.h"

@@ -22,7 +22,7 @@
 #define XMRIG_BLOCKTEMPLATE_H
 
 
-#include "3rdparty/rapidjson/fwd.h"
+#include <rapidjson/fwd.h>
 #include "base/crypto/Coin.h"
 #include "base/tools/Buffer.h"
 #include "base/tools/String.h"

@@ -19,7 +19,7 @@
  */
 
 #include "base/tools/cryptonote/BlockTemplate.h"
-#include "3rdparty/rapidjson/document.h"
+#include <rapidjson/document.h>
 #include "base/crypto/keccak.h"
 #include "base/tools/cryptonote/BlobReader.h"
 #include "base/tools/Cvt.h"

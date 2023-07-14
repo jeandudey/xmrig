@@ -24,9 +24,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
+#include <rapidjson/fwd.h>
 
 
-#include "3rdparty/rapidjson/fwd.h"
 #include "base/tools/Object.h"
 
 

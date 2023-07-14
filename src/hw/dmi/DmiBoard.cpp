@@ -20,7 +20,7 @@
 
 
 #include "hw/dmi/DmiBoard.h"
-#include "3rdparty/rapidjson/document.h"
+#include <rapidjson/document.h>
 #include "hw/dmi/DmiTools.h"
 
 

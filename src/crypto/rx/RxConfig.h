@@ -20,15 +20,13 @@
 #define XMRIG_RXCONFIG_H
 
 
-#include "3rdparty/rapidjson/fwd.h"
-
-
 #ifdef XMRIG_FEATURE_MSR
 #   include "hw/msr/MsrItem.h"
 #endif
 
 
 #include <vector>
+#include <rapidjson/fwd.h>
 
 
 namespace xmrig {

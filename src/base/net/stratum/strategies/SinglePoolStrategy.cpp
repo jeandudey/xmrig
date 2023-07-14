@@ -22,9 +22,9 @@
  *   along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include <rapidjson/document.h>
 
 #include "base/net/stratum/strategies/SinglePoolStrategy.h"
-#include "3rdparty/rapidjson/document.h"
 #include "base/kernel/interfaces/IClient.h"
 #include "base/kernel/interfaces/IStrategyListener.h"
 #include "base/kernel/Platform.h"

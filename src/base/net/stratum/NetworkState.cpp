@@ -17,7 +17,7 @@
  */
 
 #include "base/net/stratum/NetworkState.h"
-#include "3rdparty/rapidjson/document.h"
+#include <rapidjson/document.h>
 #include "base/io/log/Log.h"
 #include "base/kernel/interfaces/IClient.h"
 #include "base/kernel/interfaces/IStrategy.h"

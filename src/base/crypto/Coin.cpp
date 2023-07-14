@@ -17,12 +17,12 @@
  */
 
 #include "base/crypto/Coin.h"
-#include "3rdparty/rapidjson/document.h"
 #include "base/io/json/Json.h"
 #include "base/io/log/Log.h"
 
 
 #include <cstring>
+#include <rapidjson/document.h>
 
 
 #ifdef _MSC_VER

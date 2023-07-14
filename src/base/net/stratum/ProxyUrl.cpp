@@ -18,7 +18,7 @@
 
 
 #include "base/net/stratum/ProxyUrl.h"
-#include "3rdparty/rapidjson/document.h"
+#include <rapidjson/document.h>
 
 
 namespace xmrig {

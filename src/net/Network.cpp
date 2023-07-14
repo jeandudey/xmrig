@@ -22,7 +22,6 @@
 #endif
 
 #include "net/Network.h"
-#include "3rdparty/rapidjson/document.h"
 #include "backend/common/Tags.h"
 #include "base/io/log/Log.h"
 #include "base/io/log/Tags.h"
@@ -55,6 +54,7 @@
 #include <ctime>
 #include <iterator>
 #include <memory>
+#include <rapidjson/document.h>
 
 
 xmrig::Network::Network(Controller *controller) :

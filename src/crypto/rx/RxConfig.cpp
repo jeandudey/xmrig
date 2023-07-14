@@ -17,7 +17,6 @@
  */
 
 #include "crypto/rx/RxConfig.h"
-#include "3rdparty/rapidjson/document.h"
 #include "backend/cpu/Cpu.h"
 #include "base/io/json/Json.h"
 
@@ -25,6 +24,7 @@
 #include <array>
 #include <algorithm>
 #include <cmath>
+#include <rapidjson/document.h>
 
 
 #ifdef _MSC_VER

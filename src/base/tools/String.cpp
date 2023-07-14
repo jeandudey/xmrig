@@ -17,7 +17,7 @@
  */
 
 #include "base/tools/String.h"
-#include "3rdparty/rapidjson/document.h"
+#include <rapidjson/document.h>
 
 
 #include <cctype>

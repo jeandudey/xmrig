@@ -17,8 +17,9 @@
  *   along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include <rapidjson/document.h>
+
 #include "base/net/tls/TlsConfig.h"
-#include "3rdparty/rapidjson/document.h"
 #include "base/io/json/Json.h"
 #include "base/io/log/Log.h"
 #include "base/net/tls/TlsGen.h"

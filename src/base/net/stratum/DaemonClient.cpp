@@ -28,8 +28,8 @@
 
 
 #include "base/net/stratum/DaemonClient.h"
-#include "3rdparty/rapidjson/document.h"
-#include "3rdparty/rapidjson/error/en.h"
+#include <rapidjson/document.h>
+#include <rapidjson/error/en.h>
 #include "base/io/json/Json.h"
 #include "base/io/json/JsonRequest.h"
 #include "base/io/log/Log.h"

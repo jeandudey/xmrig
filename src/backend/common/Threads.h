@@ -23,9 +23,9 @@
 
 #include <map>
 #include <set>
+#include <rapidjson/fwd.h>
 
 
-#include "3rdparty/rapidjson/fwd.h"
 #include "base/crypto/Algorithm.h"
 #include "base/tools/String.h"
 

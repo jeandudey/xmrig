@@ -24,10 +24,10 @@
 
 
 #include <algorithm>
+#include <rapidjson/document.h>
 
 
 #include "backend/opencl/OclThreads.h"
-#include "3rdparty/rapidjson/document.h"
 #include "base/io/json/Json.h"
 
 

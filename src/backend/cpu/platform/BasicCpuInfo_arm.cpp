@@ -40,7 +40,7 @@
 
 
 #include "backend/cpu/platform/BasicCpuInfo.h"
-#include "3rdparty/rapidjson/document.h"
+#include <rapidjson/document.h>
 
 
 #if defined(XMRIG_OS_UNIX)

@@ -24,7 +24,7 @@
 
 
 #include "base/net/stratum/Pools.h"
-#include "3rdparty/rapidjson/document.h"
+#include <rapidjson/document.h>
 #include "base/io/log/Log.h"
 #include "base/kernel/interfaces/IJsonReader.h"
 #include "base/net/stratum/strategies/FailoverStrategy.h"

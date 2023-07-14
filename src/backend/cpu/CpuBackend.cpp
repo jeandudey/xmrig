@@ -17,10 +17,10 @@
  */
 
 #include <mutex>
+#include <rapidjson/document.h>
 
 
 #include "backend/cpu/CpuBackend.h"
-#include "3rdparty/rapidjson/document.h"
 #include "backend/common/Hashrate.h"
 #include "backend/common/interfaces/IWorker.h"
 #include "backend/common/Tags.h"

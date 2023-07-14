@@ -19,11 +19,11 @@
 #include <algorithm>
 #include <mutex>
 #include <thread>
+#include <rapidjson/document.h>
 
 
 #include "core/Miner.h"
 #include "core/Taskbar.h"
-#include "3rdparty/rapidjson/document.h"
 #include "backend/common/Hashrate.h"
 #include "backend/cpu/Cpu.h"
 #include "backend/cpu/CpuBackend.h"

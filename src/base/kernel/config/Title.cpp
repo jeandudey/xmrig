@@ -18,7 +18,7 @@
 
 
 #include "base/kernel/config/Title.h"
-#include "3rdparty/rapidjson/document.h"
+#include <rapidjson/document.h>
 #include "base/io/Env.h"
 #include "version.h"
 

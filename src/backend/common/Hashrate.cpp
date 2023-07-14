@@ -21,10 +21,10 @@
 #include <cassert>
 #include <memory.h>
 #include <cstdio>
+#include <rapidjson/document.h>
 
 
 #include "backend/common/Hashrate.h"
-#include "3rdparty/rapidjson/document.h"
 #include "base/io/json/Json.h"
 #include "base/tools/Chrono.h"
 #include "base/tools/Handle.h"

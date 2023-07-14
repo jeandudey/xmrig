@@ -16,8 +16,9 @@
  *   along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include <rapidjson/error/en.h>
+
 #include "base/io/json/JsonChain.h"
-#include "3rdparty/rapidjson/error/en.h"
 #include "base/io/json/Json.h"
 #include "base/io/log/Log.h"
 

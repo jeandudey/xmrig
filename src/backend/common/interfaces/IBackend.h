@@ -20,7 +20,7 @@
 #define XMRIG_IBACKEND_H
 
 
-#include "3rdparty/rapidjson/fwd.h"
+#include <rapidjson/fwd.h>
 #include "base/tools/Object.h"
 
 

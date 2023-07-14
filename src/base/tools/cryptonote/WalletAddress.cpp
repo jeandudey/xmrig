@@ -19,7 +19,6 @@
  */
 
 #include "base/tools/cryptonote/WalletAddress.h"
-#include "3rdparty/rapidjson/document.h"
 #include "base/crypto/keccak.h"
 #include "base/tools/Buffer.h"
 #include "base/tools/cryptonote/BlobReader.h"
@@ -29,6 +28,7 @@
 
 #include <array>
 #include <map>
+#include <rapidjson/document.h>
 
 
 bool xmrig::WalletAddress::decode(const char *address, size_t size)

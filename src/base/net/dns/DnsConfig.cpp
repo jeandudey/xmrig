@@ -17,11 +17,11 @@
  */
 
 #include "base/net/dns/DnsConfig.h"
-#include "3rdparty/rapidjson/document.h"
 #include "base/io/json/Json.h"
 
 
 #include <algorithm>
+#include <rapidjson/document.h>
 
 
 namespace xmrig {

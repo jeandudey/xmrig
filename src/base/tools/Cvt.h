@@ -20,7 +20,7 @@
 #define XMRIG_CVT_H
 
 
-#include "3rdparty/rapidjson/fwd.h"
+#include <rapidjson/fwd.h>
 #include "base/tools/Buffer.h"
 #include "base/tools/Span.h"
 #include "base/tools/String.h"

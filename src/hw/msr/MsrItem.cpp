@@ -18,10 +18,10 @@
 
 
 #include "hw/msr/MsrItem.h"
-#include "3rdparty/rapidjson/document.h"
 
 
 #include <cstdio>
+#include <rapidjson/document.h>
 
 
 xmrig::MsrItem::MsrItem(const rapidjson::Value &value)

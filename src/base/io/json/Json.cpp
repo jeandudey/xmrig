@@ -17,12 +17,12 @@
  */
 
 #include "base/io/json/Json.h"
-#include "3rdparty/rapidjson/document.h"
 
 
 #include <cassert>
 #include <cmath>
 #include <istream>
+#include <rapidjson/document.h>
 
 
 namespace xmrig {

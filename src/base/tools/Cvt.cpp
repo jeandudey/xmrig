@@ -18,11 +18,11 @@
  */
 
 #include "base/tools/Cvt.h"
-#include "3rdparty/rapidjson/document.h"
 
 
 #include <cassert>
 #include <random>
+#include <rapidjson/document.h>
 
 
 #ifdef XMRIG_SODIUM

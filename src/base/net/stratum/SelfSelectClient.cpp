@@ -18,10 +18,10 @@
  *   along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include <rapidjson/document.h>
+#include <rapidjson/error/en.h>
 
 #include "base/net/stratum/SelfSelectClient.h"
-#include "3rdparty/rapidjson/document.h"
-#include "3rdparty/rapidjson/error/en.h"
 #include "base/io/json/Json.h"
 #include "base/io/json/JsonRequest.h"
 #include "base/io/log/Log.h"

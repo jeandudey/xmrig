@@ -20,7 +20,7 @@
 #define XMRIG_STRING_H
 
 
-#include "3rdparty/rapidjson/fwd.h"
+#include <rapidjson/fwd.h>
 
 
 #include <utility>

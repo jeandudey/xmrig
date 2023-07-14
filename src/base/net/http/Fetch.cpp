@@ -16,10 +16,11 @@
  *   along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include <rapidjson/document.h>
+#include <rapidjson/stringbuffer.h>
+#include <rapidjson/writer.h>
+
 #include "base/net/http/Fetch.h"
-#include "3rdparty/rapidjson/document.h"
-#include "3rdparty/rapidjson/stringbuffer.h"
-#include "3rdparty/rapidjson/writer.h"
 #include "base/io/log/Log.h"
 #include "base/net/http/HttpClient.h"
 

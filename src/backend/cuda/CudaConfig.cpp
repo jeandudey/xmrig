@@ -16,8 +16,9 @@
  *   along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include <rapidjson/document.h>
+
 #include "backend/cuda/CudaConfig.h"
-#include "3rdparty/rapidjson/document.h"
 #include "backend/common/Tags.h"
 #include "backend/cuda/CudaConfig_gen.h"
 #include "backend/cuda/wrappers/CudaLib.h"

@@ -17,7 +17,7 @@
  */
 
 #include "base/net/stratum/benchmark/BenchClient.h"
-#include "3rdparty/rapidjson/document.h"
+#include <rapidjson/document.h>
 #include "backend/common/benchmark/BenchState.h"
 #include "backend/common/interfaces/IBackend.h"
 #include "backend/cpu/Cpu.h"

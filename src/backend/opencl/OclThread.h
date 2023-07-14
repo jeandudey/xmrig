@@ -19,11 +19,8 @@
 #ifndef XMRIG_OCLTHREAD_H
 #define XMRIG_OCLTHREAD_H
 
-
-#include "3rdparty/rapidjson/fwd.h"
-
-
 #include <bitset>
+#include <rapidjson/fwd.h>
 #include <vector>
 
 

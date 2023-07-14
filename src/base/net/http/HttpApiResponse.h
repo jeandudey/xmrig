@@ -21,7 +21,7 @@
 #define XMRIG_HTTPAPIRESPONSE_H
 
 
-#include "3rdparty/rapidjson/document.h"
+#include <rapidjson/document.h>
 #include "base/net/http/HttpResponse.h"
 
 

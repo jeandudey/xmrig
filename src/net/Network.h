@@ -21,7 +21,6 @@
 #define XMRIG_NETWORK_H
 
 
-#include "3rdparty/rapidjson/fwd.h"
 #include "base/api/interfaces/IApiListener.h"
 #include "base/kernel/interfaces/IBaseListener.h"
 #include "base/kernel/interfaces/IStrategyListener.h"
@@ -31,6 +30,8 @@
 
 
 #include <vector>
+#include <rapidjson/fwd.h>
+
 
 
 namespace xmrig {

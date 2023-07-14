@@ -18,7 +18,7 @@
 
 
 #include "base/net/stratum/strategies/FailoverStrategy.h"
-#include "3rdparty/rapidjson/document.h"
+#include <rapidjson/document.h>
 #include "base/kernel/interfaces/IClient.h"
 #include "base/kernel/interfaces/IStrategyListener.h"
 #include "base/kernel/Platform.h"

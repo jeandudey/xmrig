@@ -37,7 +37,7 @@
 
 
 #include "backend/cpu/platform/BasicCpuInfo.h"
-#include "3rdparty/rapidjson/document.h"
+#include <rapidjson/document.h>
 #include "crypto/common/Assembly.h"
 
 

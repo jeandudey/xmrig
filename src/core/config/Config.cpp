@@ -20,10 +20,10 @@
 #include <cinttypes>
 #include <cstring>
 #include <uv.h>
+#include <rapidjson/document.h>
 
 
 #include "core/config/Config.h"
-#include "3rdparty/rapidjson/document.h"
 #include "backend/cpu/Cpu.h"
 #include "base/io/log/Log.h"
 #include "base/kernel/interfaces/IJsonReader.h"

@@ -24,7 +24,6 @@
 
 
 #include "backend/cuda/wrappers/CudaDevice.h"
-#include "3rdparty/rapidjson/document.h"
 #include "backend/cuda/CudaThreads.h"
 #include "backend/cuda/wrappers/CudaLib.h"
 #include "base/crypto/Algorithm.h"
@@ -36,6 +35,7 @@
 #endif
 
 #include <algorithm>
+#include <rapidjson/document.h>
 
 
 xmrig::CudaDevice::CudaDevice(uint32_t index, int32_t bfactor, int32_t bsleep) :

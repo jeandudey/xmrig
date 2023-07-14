@@ -16,8 +16,9 @@
  *   along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include <rapidjson/document.h>
+
 #include "backend/cpu/CpuConfig.h"
-#include "3rdparty/rapidjson/document.h"
 #include "backend/cpu/CpuConfig_gen.h"
 #include "backend/cpu/Cpu.h"
 #include "base/io/json/Json.h"
