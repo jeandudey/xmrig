@@ -1,14 +1,5 @@
-# SPDX-FileCopyrightText: © 2023 Jean-Pierre De Jesus DIAZ <me@jeandudey.tech>
-# SPDX-License-Identifier: GPL-3.0-or-later
-
 if(WITH_BUNDLED_ADL)
 else()
-endif()
-
-if(WITH_BUNDLED_ARGON2)
-else()
-    find_package(Argon2)
-    list(APPEND THIRD_PARTY_LIBS argon2)
 endif()
 
 if(WITH_BUNDLED_OPENCL_HEADERS)
