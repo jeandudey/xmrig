@@ -1,6 +1,3 @@
-# SPDX-FileCopyrightText: © 2023 Jean-Pierre De Jesus DIAZ <me@jeandudey.tech>
-# SPDX-License-Identifier: GPL-3.0-or-later
-
 find_path(ARGON2_INCLUDE_DIR NAMES argon2.h)
 find_library(ARGON2_LIBRARY NAMES argon2)
 
