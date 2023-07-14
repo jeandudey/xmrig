@@ -20,11 +20,11 @@
 #include <cinttypes>
 #include <algorithm>
 #include <thread>
+#include <ethash/data_sizes.h>
+#include <ethash/ethash_internal.h>
+#include <ethash/ethash.h>
 
 #include "crypto/kawpow/KPCache.h"
-#include "3rdparty/libethash/data_sizes.h"
-#include "3rdparty/libethash/ethash_internal.h"
-#include "3rdparty/libethash/ethash.h"
 #include "base/io/log/Log.h"
 #include "base/io/log/Tags.h"
 #include "base/tools/Chrono.h"

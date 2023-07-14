@@ -28,13 +28,15 @@
 #include "backend/cpu/Cpu.h"
 #include "crypto/kawpow/KPHash.h"
 #include "crypto/kawpow/KPCache.h"
-#include "3rdparty/libethash/ethash.h"
-#include "3rdparty/libethash/ethash_internal.h"
-#include "3rdparty/libethash/data_sizes.h"
 
 #ifdef _MSC_VER
 #include <intrin.h>
 #endif
+
+#include <ethash/ethash.h>
+#include <ethash/ethash_internal.h>
+#include <ethash/data_sizes.h>
+
 
 namespace xmrig {
 

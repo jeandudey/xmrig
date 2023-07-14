@@ -17,17 +17,17 @@
  */
 
 #include <cinttypes>
+#include <ethash/endian.h>
 #include <iomanip>
+#include <rapidjson/document.h>
+#include <rapidjson/error/en.h>
+#include <rapidjson/stringbuffer.h>
+#include <rapidjson/writer.h>
 #include <sstream>
 #include <stdexcept>
 
 
 #include "base/net/stratum/EthStratumClient.h"
-#include "3rdparty/libethash/endian.h"
-#include <rapidjson/document.h>
-#include <rapidjson/error/en.h>
-#include <rapidjson/stringbuffer.h>
-#include <rapidjson/writer.h>
 #include "base/io/json/Json.h"
 #include "base/io/json/JsonRequest.h"
 #include "base/io/log/Log.h"

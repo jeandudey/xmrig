@@ -17,8 +17,6 @@
  */
 
 #include "backend/opencl/runners/tools/OclKawPow.h"
-#include "3rdparty/libethash/data_sizes.h"
-#include "3rdparty/libethash/ethash_internal.h"
 #include "backend/opencl/cl/kawpow/kawpow_cl.h"
 #include "backend/opencl/interfaces/IOclRunner.h"
 #include "backend/opencl/OclCache.h"
@@ -34,6 +32,8 @@
 
 
 #include <cstring>
+#include <ethash/data_sizes.h>
+#include <ethash/ethash_internal.h>
 #include <mutex>
 #include <regex>
 #include <sstream>

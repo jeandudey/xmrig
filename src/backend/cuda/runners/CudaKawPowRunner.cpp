@@ -17,7 +17,6 @@
  */
 
 #include "backend/cuda/runners/CudaKawPowRunner.h"
-#include "3rdparty/libethash/data_sizes.h"
 #include "backend/cuda/CudaLaunchData.h"
 #include "backend/cuda/wrappers/CudaLib.h"
 #include "base/io/log/Log.h"
@@ -26,6 +25,8 @@
 #include "base/tools/Chrono.h"
 #include "crypto/kawpow/KPCache.h"
 #include "crypto/kawpow/KPHash.h"
+
+#include <ethash/data_sizes.h>
 
 
 xmrig::CudaKawPowRunner::CudaKawPowRunner(size_t index, const CudaLaunchData &data) :
