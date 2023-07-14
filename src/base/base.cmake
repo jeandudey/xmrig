@@ -183,7 +183,6 @@ endif()
 
 if (WITH_HTTP)
     set(HEADERS_BASE_HTTP
-        src/3rdparty/llhttp/llhttp.h
         src/base/api/Api.h
         src/base/api/Httpd.h
         src/base/api/interfaces/IApiRequest.h
@@ -204,9 +203,6 @@ if (WITH_HTTP)
         )
 
     set(SOURCES_BASE_HTTP
-        src/3rdparty/llhttp/llhttp.c
-        src/3rdparty/llhttp/api.c
-        src/3rdparty/llhttp/http.c
         src/base/api/Api.cpp
         src/base/api/Httpd.cpp
         src/base/api/requests/ApiRequest.cpp
@@ -222,6 +218,17 @@ if (WITH_HTTP)
         src/base/net/stratum/SelfSelectClient.cpp
         src/base/net/tools/TcpServer.cpp
         )
+
+    if(WITH_BUNDLED_LLHTTP)
+        list(APPEND HEADERS_BASE_HTTP src/3rdparty/llhttp/llhttp.h)
+        list(APPEND SOURCES_BASE_HTTP
+             src/3rdparty/llhttp/llhttp.c
+             src/3rdparty/llhttp/api.c
+             src/3rdparty/llhttp/http.c
+             )
+    else()
+        find_package(llhttp REQUIRED)
+    endif()
 
     add_definitions(/DXMRIG_FEATURE_HTTP)
     add_definitions(/DXMRIG_FEATURE_API)
