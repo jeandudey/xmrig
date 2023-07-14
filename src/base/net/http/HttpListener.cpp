@@ -18,9 +18,10 @@
 
 
 #include "base/net/http/HttpListener.h"
-#include "3rdparty/llhttp/llhttp.h"
 #include "base/io/log/Log.h"
 #include "base/net/http/HttpData.h"
+
+#include <llhttp.h>
 
 
 void xmrig::HttpListener::onHttpData(const HttpData &data)

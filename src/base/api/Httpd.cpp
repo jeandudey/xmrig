@@ -17,7 +17,6 @@
  */
 
 #include "base/api/Httpd.h"
-#include "3rdparty/llhttp/llhttp.h"
 #include "base/api/Api.h"
 #include "base/io/log/Log.h"
 #include "base/net/http/HttpApiResponse.h"
@@ -32,6 +31,9 @@
 #else
 #   include "base/net/http/HttpServer.h"
 #endif
+
+
+#include <llhttp.h>
 
 
 namespace xmrig {
